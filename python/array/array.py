@@ -1,6 +1,8 @@
 # chiedo all'utente il numero di parole che vuole inserire
 n = input("quante parole vuoi inserire? ")
 
+# casting
+# converto n da stringa a intero (numero senza virgola)
 n = int(n)
 
 # creo parole come array vuoto
