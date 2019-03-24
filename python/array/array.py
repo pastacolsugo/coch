@@ -1,6 +1,8 @@
 # chiedo all'utente il numero di parole che vuole inserire
 n = input("quante parole vuoi inserire? ")
 
+n = int(n)
+
 # creo parole come array vuoto
 parole = []
 
@@ -9,7 +11,7 @@ parole = []
 for i in range(n):
 	parola = input('inserisci una parola: ')
 	# con la funzione append() aggiungo la parola all'array parole
-	parole.append(parole)
+	parole.append(parola)
 
 # alla fine stampo il contenuto dell'array parole 
 print(parole)
